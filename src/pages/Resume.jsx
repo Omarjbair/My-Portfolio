@@ -24,6 +24,7 @@ const Resume = () => {
                         <p className="text-cw text-[15px]">Reach out to me via my <a onClick={() => navigate('/contact')} className="font-black cursor-pointer hover:text-[#0056b3] hover:underline duration-100">contact page</a> . <a href={cv} target="_blank" className="font-black cursor-pointer hover:text-[#0056b3] hover:underline duration-100">view</a> or <a href={cv} download className="font-black cursor-pointer hover:text-[#0056b3] hover:underline duration-100">download</a> the resume</p>
                         <div className="bg-[#fff] mt-10 w-[60%] max-lg:w-[80%] max-md:w-full">
                             <img src="./cv.svg" loading="lazy"></img>
+                            <img src="./cv2.svg" loading="lazy"></img>
                         </div>
                         <NavigateToNextPage navigatePath={'contact'} sentence={"Are you convinced to contact me now ?"}/>
                         <SocialMedia/>
