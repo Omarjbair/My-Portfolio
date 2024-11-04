@@ -28,6 +28,7 @@ const Project = () => {
                         <PageHeading Title={"Projects"}/>
                         <ul className="flex  gap-8 max-[384px]:gap-4 justify-center items-center text-article-color text-[15px] flex-wrap">
                             <li className={`${searchFilter === 'All'?'searchFilters':null} duration-500 py-[5px] cursor-pointer rounded-[5px]`} onClick={() => setSearchFilter("All")}>All</li>
+                            <li className={`${searchFilter === 'Next'?'searchFilters':null} duration-500 py-[5px] cursor-pointer rounded-[5px]`}  onClick={() => setSearchFilter("Next")}>Next</li>
                             <li className={`${searchFilter === 'React'?'searchFilters':null} duration-500 py-[5px] cursor-pointer rounded-[5px]`}  onClick={() => setSearchFilter("React")}>React</li>
                             <li className={`${searchFilter === 'JavaScript'?'searchFilters':null} duration-500 py-[5px] cursor-pointer rounded-[5px]`}  onClick={() => setSearchFilter("JavaScript")}>JavaScript</li>
                             <li className={`${searchFilter === 'HTML&CSS'?'searchFilters':null} duration-500 py-[5px] cursor-pointer rounded-[5px]`}  onClick={() => setSearchFilter("HTML&CSS")}>Html & Css</li>

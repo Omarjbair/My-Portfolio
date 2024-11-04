@@ -95,6 +95,22 @@ const projects = [
         'projectLink' : 'https://omarjbair.github.io/World_Cup_Qatar_2022_Web_Design/',
         'key' : 11,
     },
+    {
+        'name': 'Blog App',
+        'img' : 'blogApp.png',
+        'type' : "Next",
+        'technologies' : ["Next","Tailwind","NextAuth","Firebase"],
+        'projectLink' : 'https://omarblog.vercel.app/',
+        'key' : 12,
+    },
+    {
+        'name': 'Shoes Ecommerce',
+        'img' : 'Ecommerce.png',
+        'type' : "Next",
+        'technologies' : ["Next","Tailwind","Prisma","Neon","Kinde-Auth","UploadThing","TypeScript","Stripe"],
+        'projectLink' : 'https://omarshoe.vercel.app/',
+        'key' : 13,
+    },
 ];
 
 export const projectData = shuffle(projects);
